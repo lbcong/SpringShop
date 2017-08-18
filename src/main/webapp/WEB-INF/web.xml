@@ -73,9 +73,7 @@
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
     <!-- =[ SPRING FRAMEWORK ]========================================================================================== -->
-    <welcome-file-list>
-        <welcome-file>redirect.jsp</welcome-file>
-    </welcome-file-list>
+
     <session-config>
         <session-timeout>
             30

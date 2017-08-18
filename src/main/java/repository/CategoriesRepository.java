@@ -23,8 +23,6 @@ public interface CategoriesRepository extends CrudRepository<Category, Integer> 
 
     public List<Category> findBycategoryNameContainingAndIsActive(String categoryName,Integer isActive) throws Exception;
 
-
-
     public Page<Category> findAll(Pageable pageable) throws Exception;
 
     public Page<Category> findBycategoryNameContaining(Pageable pageable, String CategoryName) throws Exception;

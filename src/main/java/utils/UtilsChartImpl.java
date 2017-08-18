@@ -19,7 +19,7 @@ import repository.OrdersRepository;
 
 @Service
 public class UtilsChartImpl implements UtilsChart, Serializable {
-
+    
     @Autowired
     OrdersRepository ordersRepository;
 

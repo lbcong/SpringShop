@@ -61,8 +61,10 @@ public class Category implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Basic(optional = false)
+    
     @Column(name = "CategoryId")
     private Integer categoryId;
+    
     @Column(name = "CategoryName")
     private String categoryName;
     @Column(name = "isActive")

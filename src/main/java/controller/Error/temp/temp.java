@@ -40,6 +40,7 @@ public class temp {
     @RequestMapping(value = {"/Public/test"}, method = RequestMethod.GET)
     public String Vote(HttpServletRequest request, ModelMap model, HttpSession session,
             ModelMap mm) {
+       
         List<Object[]> l = null;
         //Object o = orderdetailRepository.sumAllQuantityByDate();
 //        try {

@@ -62,7 +62,7 @@ public class LandingController implements Serializable {
 
 //    ====================================***HandMaping***=======================================================>>
 //    ====================================***PRODUCT***=======================================================>>
-    @RequestMapping(value = "/setupIndex", method = RequestMethod.GET)
+    @RequestMapping(value = {"/setupIndex","/"}, method = RequestMethod.GET)
     public String setupIndex(ModelMap mm, HttpServletRequest request) throws Exception {
         return "redirect:/Public/searchAllProducts";
     }
