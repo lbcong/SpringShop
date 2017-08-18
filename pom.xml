@@ -193,27 +193,7 @@
             </plugin>
             
             
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-war-plugin</artifactId>
-                <version>2.3</version>
-                <!-- <configuration> <archive> <manifestFile>src/main/webapp/META-INF/MANIFEST.MF</manifestFile> 
-                <manifest> <addClasspath>true</addClasspath> </manifest> </archive> </configuration> -->
-                <configuration>
-                    <webResources>
-                        <resource>
-                            <directory>${basedir}/src/main/webapp</directory>
-                        </resource>
-                    </webResources>
-                    <archiveClasses>false</archiveClasses>
-                    <archive>
-                        <manifest>
-                            <addClasspath>true</addClasspath>
-                            <classpathPrefix>Web-Inf/lib</classpathPrefix>
-                        </manifest>
-                    </archive>
-                </configuration>
-            </plugin>
+        
 
         </plugins>
         
