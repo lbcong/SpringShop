@@ -20,7 +20,7 @@
         ">
     
   
-   <context:property-placeholder location="classpath:SpringConfig/jdbc-mysql.properties"/>
+   <context:property-placeholder location="classpath:SpringConfig/jdbc.properties"/>
    
     <bean id="dataSource"
           class="org.springframework.jdbc.datasource.DriverManagerDataSource">
