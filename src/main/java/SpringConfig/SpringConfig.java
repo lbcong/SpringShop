@@ -56,8 +56,8 @@ public class SpringConfig {
         entitymanager.setJpaVendorAdapter(new HibernateJpaVendorAdapter());
         entitymanager.setPackagesToScan("entity");
         Properties p = new Properties();
-        //p.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQLDialect");
-        p.setProperty("hibernate.dialect", "org.hibernate.dialect.PostgreSQLDialect");
+        p.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQLDialect");
+        //p.setProperty("hibernate.dialect", "org.hibernate.dialect.PostgreSQLDialect");
         p.setProperty("hibernate.hbm2ddl.auto", "update");
         p.setProperty("hibernate.id.new_generator_mappings", "false");
         entitymanager.setJpaProperties(p);
